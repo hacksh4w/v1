@@ -1,8 +1,9 @@
-import React from 'react'
+import '../styles/Home.css'
 
 const Home = () => {
   return (
-    <div className='flex flex-col items-center justify-center min-h-screen text-white layout'>
+    <div className='dot flex flex-col items-center justify-center min-h-screen'>
+      <div className='color'></div>
     </div>
   )
 }

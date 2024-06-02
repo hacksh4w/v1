@@ -1,5 +1,9 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+//import { people01, people02, people03, 
+ // github,instagram,linkedin,twitter 
+  //airbnb, binance, coinbase, dropbox, send, shield, star  
+//} from "../assets/";
 
+/*
 export const navLinks = [
   {
     id: "home",
@@ -153,30 +157,35 @@ export const footerLinks = [
     ],
   },
 ];
-
+*/
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
+    icon: '/github.svg',
+    name : "Github",
+    link: "https://www.github.com/hacksh4w",
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    icon: '/instagram.svg',
+    name : "Instagram",
+    link: "https://www.instagram.com/_hacksh4w_",
   },
   {
     id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
+    icon: '/twitter.svg',
+    name : "Twitter",
+    link: "https://www.twitter.com/hacksh4w",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: '/linkedin.svg',
+    name : "Linkedin",
+    link: "https://www.linkedin.com/mrinalini-nair-ani",
   },
 ];
 
+/*
 export const clients = [
   {
     id: "client-1",
@@ -194,4 +203,4 @@ export const clients = [
     id: "client-4",
     logo: dropbox,
   },
-];
+]; */

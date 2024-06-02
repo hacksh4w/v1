@@ -1,0 +1,12 @@
+.dot {
+    position: relative;
+    overflow-x: hidden;
+}
+.color {
+    background-image: radial-gradient(closest-side, #311717, #0A0A0D); 
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top : -420px;
+    left : 15%;
+}
