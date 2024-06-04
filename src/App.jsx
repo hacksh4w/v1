@@ -2,7 +2,7 @@ import Home from './pages/Home';
 import Project from './pages/Project';
 import './index.css';
 import './App.css';
-
+import SlideTabsExample from './pages/Try';
 export default function App() {
   return (
     <div className="w-full mx-auto overflow-hidden">
@@ -13,9 +13,9 @@ export default function App() {
         <Navbar />
       </div>
         </div>
-  */} 
-      <Home />
+  */} <SlideTabsExample />
       <Project />
+      <Home />
       <div className="flex flex-col p-2">
         <h1 className="text-3xl font-bold underline font-serif">
           Hello world!
